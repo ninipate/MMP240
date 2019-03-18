@@ -30,10 +30,12 @@ aside {
 	width: 30%;
 	float:left;
 	font-style: italic;
+	background-color: 
+
 
 }
 article {
-	width: 70%;
+	width: 50%;
 	float: right;
 }
 
@@ -45,6 +47,9 @@ footer {
 	height: 200px;
 	padding: 1%;
 
+}
+img {
+	width: 20%;
 }
 
 a
