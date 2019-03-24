@@ -22,21 +22,30 @@ h1 {
 
 section { 
 	height: 900px;
-	width: 90%;
+	width: 95%;
 	margin: 2% 2%;
+	background-color: #FF0080;
+
 
   } 
 aside {
-	width: 30%;
+	width: 29%;
 	float:left;
 	font-style: italic;
-	background-color: 
+	background-color: black;
+	color: white;
+	height: 900px;
+	padding: 30px;
+
 
 
 }
 article {
-	width: 50%;
-	float: right;
+	width: 59%;
+	float:left;
+	padding: 30px;
+	color: white;
+	text-align: left;
 }
 
 footer {
@@ -52,7 +61,11 @@ img {
 	width: 20%;
 }
 
-a
+div{
+	background-color: black;
+	height:400px;
+
+}
 
 
 
