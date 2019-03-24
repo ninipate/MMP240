@@ -8,6 +8,7 @@
 body {
 	background-color: white;
 	margin: 0 auto;
+	font-family: 'Gloria Hallelujah', cursive;
 
 	
 }
@@ -18,13 +19,15 @@ nav { background-color: black;
 h1 {
 	text-align: center;
 	margin: 2%;
+	font-family: 'Permanent Marker', cursive;
 }
 
 section { 
 	height: 900px;
 	width: 95%;
 	margin: 2% 2%;
-	background-color: #FF0080;
+	background-color:white;
+	
 
 
   } 
@@ -44,7 +47,7 @@ article {
 	width: 59%;
 	float:left;
 	padding: 30px;
-	color: white;
+	color: black;
 	text-align: left;
 }
 
