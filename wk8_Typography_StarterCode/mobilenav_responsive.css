@@ -5,14 +5,14 @@ https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
 
 .topnav {
   overflow: hidden;
-  background-color: #2E382E;
+  background-color: #e9fadb;
 
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #150125;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
