@@ -20,12 +20,12 @@ https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
 }
 
 .topnav a:hover {
-  background-color: #72A1E5;
+  background-color: #DF928E;
   color: black;
 }
 
 .active {
-  background-color: #1B998B;
+  background-color: #C58882;
   color: white;
 }
 
