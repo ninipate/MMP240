@@ -2,9 +2,34 @@
 			background-color: blue;
 
 	 }
-	 @media only screen and (min-width: 800px){
+
+ @media only screen and (min-width: 800px){
 	 	body{
 	 		background-color: yellow;
 
 	 	}
 	 }
+
+			 nav{
+			text-align: center;
+			background-color: #0C0A3E;
+		}
+
+			nav ul{
+				list-style: none;
+			}
+
+			nav li{
+				display: inline;
+			}
+
+			nav a{
+				display: inline-block;
+				padding: 20px;
+				color: white;
+			}
+
+			nav a:hover{
+				background-color: #B4436C;
+				color: #0C0A3E;
+			}
