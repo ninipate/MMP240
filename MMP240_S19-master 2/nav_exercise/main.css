@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Srisakdi');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	/*font-family: 'Lato', sans-serif;*/
+	font-family: 'Srisakdi', cursive;
+	background-color: #39CCCC;
+	color: #7B1E7A;
+	width: 70%;
+	margin: 0 auto;
+}
+
+a{
+	color: #85144B;
+}
+
+a:hover{
+	color: #F2C14E;
+	background-color: #0C0A3E;
+}
+
+h1{
+	/*font-family: 'Srisakdi', cursive;*/
+	font-family: 'Lato', sans-serif;
+}
+
+section{
+	padding-top: 20px;
+}
+
+/* Navigation Styles */
+
+nav{
+	text-align: center;
+	background-color: #0C0A3E;
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav li{
+	display: inline;
+}
+
+nav a{
+	display: inline-block;
+	padding: 20px;
+	color: white;
+}
+
+nav a:hover{
+	background-color: #B4436C;
+	color: #0C0A3E;
+}
+
