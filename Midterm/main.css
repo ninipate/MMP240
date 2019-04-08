@@ -1,36 +1,91 @@
 	body{
 			width: 90%;
 			margin: 0 auto;
+			
+			background-size:cover; 
+			background: url(images/charles_bukowski_by_artwarriors-d47rfk6.jpg) repeat center center fixed;
+			color: white;
+			background-color: black;
+			font-family: 'Reenie Beanie', cursive; }
 
-	 }
 
- @media only screen and (min-width: 800px){
-	 	body{
+
+
+		figure{
+
+			font-family: 'Amatic SC', cursive;
+			max-width: 70%;
+			font-size: 45px;
+			text-shadow: 5px 5px 8px black;
+
+		}
+		@media only screen and (min-width: 600px){
+           figure{
+             max-width: 80%;
+			font-size: 80px;
+           } 	
+	 }		
+		figcaption{
+			font-family: 'Calligraffitti', cursive;
+			
+			font-size: 20px;
+			text-align: right;
+		}
+			
+.forimage img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+section{
+	font-size: 30px;
+}
+
+footer{
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*@media only screen and (min-width: 800px)	body{
 	 		background-color: yellow;
 
 	 	}
 	 }
 
+	 
 			 nav{
 			text-align: center;
 			background-color: #0C0A3E;
 		}
 
-			nav ul{
+	ul{
 				list-style: none;
 			}
 
-			nav li{
+	li{
 				display: inline;
 			}
 
-			nav a{
+		a{
 				display: inline-block;
 				padding: 20px;
 				color: white;
 			}
 
-			nav a:hover{
+			a:hover{
 				background-color: #B4436C;
 				color: #0C0A3E;
 			}
+*/
