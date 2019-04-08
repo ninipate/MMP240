@@ -39,10 +39,19 @@
 }
 section{
 	font-size: 30px;
+	width:50%;
+	margin: 0 auto;
+
 }
 
 footer{
-	
+ height: 150px;
+ background-size:cover; 
+ background: url(images/wall-1200x330.jpg) repeat fixed;
+ clear:both;
+ text-align: center;
+ font-size: 30px;
+ margin-top:50;
 }
 
 
