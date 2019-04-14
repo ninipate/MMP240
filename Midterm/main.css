@@ -3,7 +3,7 @@
 			margin: 0 auto;
 			
 			background-size:cover; 
-			background: url(images/charles_bukowski_by_artwarriors-d47rfk6.jpg) repeat center center fixed;
+			background: url(images/scott-major-1384070-unsplash.jpg) repeat center center fixed;
 			color: white;
 			background-color: black;
 			font-family: 'Reenie Beanie', cursive; }
@@ -47,11 +47,11 @@ section{
 footer{
  height: 150px;
  background-size:cover; 
- background: url(images/wall-1200x330.jpg) repeat fixed;
+ background: url(images/scott-major-1384070-unsplash.jpg) repeat fixed;
  clear:both;
  text-align: center;
  font-size: 30px;
- margin-top:50;
+ margin-top:80;
 }
 
 
