@@ -136,6 +136,7 @@ big {
 	font-size: 125%;
 }
 
+
 /* Global layouts */
 @media screen and (min-width: 700px) {
     .two-column {
@@ -163,7 +164,6 @@ a.content-button:hover {
 	color: #FFFCED;
 }
 
-
 /*--------------------------------------------------------------
 General styling
 --------------------------------------------------------------*/
@@ -171,6 +171,14 @@ General styling
 .site {
 	margin: 1em;
 	display: grid;
+	grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 0.2fr 1fr 1fr;
+    grid-template-areas: 
+    "masthead"
+    "title"
+    "main"
+    "sidebar"
+    "footer" ;
 }
 
 .masthead,
@@ -181,8 +189,24 @@ General styling
     padding: 1em;
     color: white;
 
-
 }
+.masthead{
+	grid-area: masthead;
+}
+.page-title{
+	grid-area: title;
+}
+.main-content{
+	grid-area: main;
+}
+.sidebar{
+	grid-area: sidebar;
+}
+.footer-content{
+	grid-area: footer;
+}
+
+
 
 .masthead {
     color: white;
@@ -215,10 +239,9 @@ General styling
 		grid-template-columns: 2fr 1fr 1fr;
 		grid-template-areas:
 		"masthead masthead masthead"
-		"page-title page-title page-title"
-		"main-content sidebar sidebar"
-		"main-content sidebar sidebar"
-		"footer-content footer-content footer-content";
+		"title title title"
+		"main main sidebar"
+		"footer footer footer";
 	}
 }
 
