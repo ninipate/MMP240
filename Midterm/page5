@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BUKOWSKI</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="navbar.css">
+<link href="https://fonts.googleapis.com/css?family=Dokdo|Open+Sans+Condensed:300|Raleway" rel="stylesheet">
+</head>
+<body class="site">
+
+	 <nav class="topnav" id="myTopnav"> 
+	 		<a href="index.html" >Bukowski</a> 
+	 		<a href="page2.html" class="active">Biography </a>
+	 		<a href="page3.html">Lifestyle </a>
+	 		<a href="page4.html">Bibliography </a>
+	 		<a href="../index.html">Back to MMP240</a> 
+
+	 		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+	  </nav>
+
+
+<header>
+     
+     Biography
+    </header>
+
+
+
+	
+<figure class="forimage"> <img src="images/charles-bukowski.jpg">
+<figcaption class="text">Bukowski published his first story when he was twenty-four and began writing poetry at the age of thirty-five.
+	His lack of publishing success at age 26,  caused him to give up writing in 1946 and spurred a ten-year stint of heavy drinking. After he developed a bleeding ulcer, he decided to take up writing again.
+He worked a wide range of jobs to support his writing, including dishwasher, truck driver and loader, mail carrier, guard, gas station attendant, stock boy, warehouse worker, shipping clerk, post office clerk, parking lot attendant, Red Cross orderly, and elevator operator. He also worked in a dog biscuit factory, a slaughterhouse, a cake and cookie factory, and he hung posters in New York City subways.
+
+</figcaption>
+</figure> 
+<p>This information was cited from https://www.poets.org/poetsorg/poet/charles-bukowski</p>
+
+
+
+	<footer>
+		© Nini Pateishvili
+	</footer>
+
+    <script>            
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+<div class="grid-container">
+  <div class="navbar"></div>
+  <div class="main"></div>
+  <div class="sidebar"></div>
+  <div class="footer"></div>
+  <div class="title"></div>
+</div>

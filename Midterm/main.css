@@ -56,6 +56,22 @@ footer{
 
 
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.5fr 1.4fr 0.6fr 1fr;
+  grid-template-rows: 0.4fr 1.6fr 1fr 1fr;
+  grid-template-areas: "navbar navbar navbar navbar" "main main sidebar title" "main main sidebar title" "footer footer footer footer";
+}
+
+.navbar { grid-area: navbar; }
+
+.main { grid-area: main; }
+
+.sidebar { grid-area: sidebar; }
+
+.footer { grid-area: footer; }
+
+.title { grid-area: title; }
 
 
 

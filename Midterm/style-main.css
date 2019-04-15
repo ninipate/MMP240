@@ -37,6 +37,7 @@ Typography
 
 body {
 	margin: 0;
+	background: url(images/scott-major-1384070-unsplash.jpg) repeat fixed;
 }
 
 body,
@@ -169,6 +170,7 @@ General styling
 
 .site {
 	margin: 1em;
+	display: grid;
 }
 
 .masthead,
@@ -182,21 +184,38 @@ General styling
 }
 
 .masthead {
-    background-color: #b46ae3;
+    color: white;
 }
 
 .page-title {
-    background-color: #51a7fa;
+    color: white;
 }
 
 .main-content {
-    background-color: #70bf40;
+    color: white;
 }
 
 .sidebar {
-    background-color: #f49018;
+    color: white;
 }
 
 .footer-content {
-    background-color: #0265c0;
+    color: white;
 }
+@media only screen and (min-width: 600px){
+	
+	body{
+		background-color: white;
+	}
+
+	.site{
+		grid-template-columns: 2fr 1fr 1fr;
+		grid-template-areas:
+		"masthead masthead masthead"
+		"page-title page-title page-title"
+		"main-content sidebar sidebar"
+		"main-content sidebar sidebar"
+		"footer-content footer-content footer-content";
+	}
+}
+
