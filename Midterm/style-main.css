@@ -191,7 +191,9 @@ General styling
 
 }
 .masthead{
+
 	grid-area: masthead;
+	font-family: 'Amatic SC', cursive;
 }
 .page-title{
 	grid-area: title;
