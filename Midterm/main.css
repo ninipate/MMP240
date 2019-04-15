@@ -43,7 +43,19 @@ section{
 	margin: 0 auto;
 
 }
+.quote{font-family: 'Amatic SC', cursive;
+			max-width: 70%;
+			font-size: 35px;
+			text-shadow: 5px 5px 8px black;
 
+		}
+		@media only screen and (min-width: 600px){
+           .quote{
+             max-width: 80%;
+			font-size: 60px;
+           } 	
+
+}
 footer{
  height: 150px;
  background-size:cover; 
