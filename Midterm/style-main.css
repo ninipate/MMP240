@@ -181,6 +181,7 @@ General styling
     padding: 1em;
     color: white;
 
+
 }
 
 .masthead {
@@ -193,6 +194,7 @@ General styling
 
 .main-content {
     color: white;
+    font-family: 'Amatic SC', cursive;
 }
 
 .sidebar {
@@ -201,6 +203,7 @@ General styling
 
 .footer-content {
     color: white;
+
 }
 @media only screen and (min-width: 600px){
 	
