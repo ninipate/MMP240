@@ -15,6 +15,9 @@
 */
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:400|Open+Sans:400');
+  *{
+box-sizing: border-box;
+}
 
 html {font-size: 16px;}
 
@@ -24,22 +27,44 @@ body {
   font-weight: 400;
   line-height: 1.45;
   color: #050438;
-}
-div {
-  max-width: 770px;
+  width: 90%;
   margin: auto;
 }
+
+
+
+
+
+
+
+
+.imagetext{
+  margin-top: 10px; 
+  margin-bottom: 10px; 
+}
+
+    
+
 img {
   width: 100%;
-}
+  display: block;
+margin: auto;}
+
+
 /*So THIS IS TO MAKE the text not to change and not to go the whole lines across the page but to be fixed after 770 
 pixels;
 AND then the margin auto is to center the text */
-section {
+.whole {
 	max-width: 770px;
 
 	margin: auto;
+
 }
+
+
+
+
+
 
 p {margin-bottom: 1.25em;}
 
@@ -64,16 +89,75 @@ h4 {font-size: 1.777em;}
 h5 {font-size: 1.333em;}
 
 small, .text_small {font-size: 0.75em;}
+    
+     @media only screen and (min-width: 500px) {
+                      
+                     .logo {max-width: 400px;
+
+                     }
+          
+                    
 
 
-@media only screen and (min-width: 1000px) {
-    					section{
-    						column-count: 2;
-    					}
+        @media only screen and (min-width: 800px) {
+            					.whole{ max-width: 800px;
+                        margin: auto;
+                     }
+                     img {max-width: 500px;
+                     margin: auto;}
+                     .logo {max-width: 600px;
 
-}
+                     }
+          
+            					.nebula {
+                        max-width: 1000px;
+                        margin: auto;
+                        column-count: 2;
+                      }
+        aside{
+
+            height: 400px;
+            width: 29%;
+            float: left;
+            margin-right: 1%;
+            margin-bottom: 10px;
+
+        }
+
+        article{
+            height: 400px;
+            width: 70%;
+            float: right;   
+            margin-bottom: 10px; 
+
+        }
+
+        }
 
 
+                        @media only screen and (min-width: 1000px) {
+                      .whole{ max-width: 1000px;
+                        margin: auto;
+                     }
+                     img {max-width: 400px;
 
+                     margin: auto;}
+
+                    
+
+                                                             @media only screen and (min-width: 1500px) {
+                                                .whole{ max-width: 1500px;
+                                                  margin: auto;
+                                               }
+                                               img {max-width: 400px;
+
+                                               margin: auto;}
+
+                                               .logo {max-width: 650px;
+
+                     }
+
+
+                                   article {column-count: 2;}}
 
 
