@@ -1,5 +1,5 @@
 /* 
-Note This code has been adapted from this W3Schools Example: 
+Note This code has been adaptedrom this W3Schools Example: 
 https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
 */
 
@@ -12,7 +12,7 @@ https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
 .topnav a {
   float: left;
   display: block;
-  color: #150125;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
