@@ -25,9 +25,10 @@ https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
 }
 
 .active {
-  background-color: #CECEEA;
+  background-color: #080856;
   color: white;
-}
+  
+} 
 
 .topnav .icon {
   display: none;
