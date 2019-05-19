@@ -37,6 +37,7 @@ Typography
 
 body {
 	margin: 0;
+	background: url(images/scott-major-1384070-unsplash.jpg) repeat fixed;
 }
 
 body,
@@ -135,6 +136,7 @@ big {
 	font-size: 125%;
 }
 
+
 /* Global layouts */
 @media screen and (min-width: 700px) {
     .two-column {
@@ -162,13 +164,21 @@ a.content-button:hover {
 	color: #FFFCED;
 }
 
-
 /*--------------------------------------------------------------
 General styling
 --------------------------------------------------------------*/
 
 .site {
 	margin: 1em;
+	display: grid;
+	grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 0.2fr 1fr 1fr;
+    grid-template-areas: 
+    "masthead"
+    "title"
+    "main"
+    "sidebar"
+    "footer" ;
 }
 
 .masthead,
@@ -180,23 +190,62 @@ General styling
     color: white;
 
 }
+.masthead{
+
+	grid-area: masthead;
+	font-family: 'Amatic SC', cursive;
+}
+.page-title{
+	grid-area: title;
+}
+.main-content{
+	grid-area: main;
+}
+.sidebar{
+	grid-area: sidebar;
+}
+.footer-content{
+	grid-area: footer;
+}
+
+
 
 .masthead {
-    background-color: #b46ae3;
+    color: white;
 }
 
 .page-title {
-    background-color: #51a7fa;
+    color: white;
 }
 
 .main-content {
-    background-color: #70bf40;
+    color: white;
+    font-family: 'Amatic SC', cursive;
 }
 
 .sidebar {
-    background-color: #f49018;
+    color: white;
 }
 
 .footer-content {
-    background-color: #0265c0;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+
 }
+@media only screen and (min-width: 600px){
+	
+	body{
+		background-color: white;
+	}
+
+	.site{
+		grid-template-columns: 2fr 1fr 1fr;
+		grid-template-areas:
+		"masthead masthead masthead"
+		"title title title"
+		"main main sidebar"
+		"footer footer footer";
+	}
+}
+

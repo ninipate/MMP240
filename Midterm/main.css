@@ -1,4 +1,4 @@
-.site{
+	body{
 			width: 90%;
 			margin: 0 auto;
 			
@@ -6,32 +6,28 @@
 			background: url(images/scott-major-1384070-unsplash.jpg) repeat center center fixed;
 			color: white;
 			background-color: black;
-			font-family: 'Raleway', sans-serif;
-
-		}
+			font-family: 'Reenie Beanie', cursive; }
 
 
-header{font-family: 'Dokdo', cursive;
-	
-	font-size: 50px;
-	text-align: center;
-}
-.quote
-	{
-		 font-family: 'Dokdo', cursive;
+
+
+		figure{
+
+			font-family: 'Amatic SC', cursive;
 			max-width: 70%;
-			font-size: 30px;
+			font-size: 45px;
 			text-shadow: 5px 5px 8px black;
-		}
 
+		}
 		@media only screen and (min-width: 600px){
-           .quote{
+           figure{
              max-width: 80%;
-			font-size: 60px;
+			font-size: 80px;
            } 	
 	 }		
 		figcaption{
-			font-family: 'Dokdo', cursive;
+			font-family: 'Calligraffitti', cursive;
+			
 			font-size: 20px;
 			text-align: right;
 		}
@@ -40,37 +36,36 @@ header{font-family: 'Dokdo', cursive;
 	display: block;
 	width: 100%;
 	height: auto;
+}
+section{
+	font-size: 30px;
+	width:50%;
+	margin: 0 auto;
 
 }
-.forimage2 img{
-	display: block;
-	width: 100%;
-	height: auto;
+.quote{font-family: 'Amatic SC', cursive;
+			max-width: 70%;
+			font-size: 35px;
+			text-shadow: 5px 5px 8px black;
 
-}
-.text{
-	font-family: 'Raleway', sans-serif;
-	text-align: justify;
-}
-@media only screen and (min-width: 600px){
-           .forimage{
+		}
+		@media only screen and (min-width: 600px){
+           .quote{
              max-width: 80%;
-			
+			font-size: 60px;
            } 	
 
-
-
+}
 footer{
-	width: 90%;
  height: 150px;
- padding: 14px 16px;
  background-size:cover; 
  background: url(images/scott-major-1384070-unsplash.jpg) repeat fixed;
  clear:both;
  text-align: center;
- font-size: 15px;
+ font-size: 30px;
  margin-top:0;
 }
+.text{text-align: center;}
 
 
 
