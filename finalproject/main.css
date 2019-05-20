@@ -30,9 +30,9 @@ body {
   width: 90%;
   margin: auto;
 }
-
-
-
+.nebula iframe {
+  width: 100%;
+}
 
 
 
@@ -90,30 +90,30 @@ h5 {font-size: 1.333em;}
 
 small, .text_small {font-size: 0.75em;}
     
-     @media only screen and (min-width: 500px) {
-                      
-                     .logo {max-width: 400px;
+                                 @media only screen and (min-width: 500px) {
+                                                  
+                                                 .logo {max-width: 400px;
 
-                     }
-          
-                    
+                                                 }
+                                      
+                                                
 
 
-        @media only screen and (min-width: 800px) {
-            					.whole{ max-width: 800px;
-                        margin: auto;
-                     }
-                     img {max-width: 500px;
-                     margin: auto;}
-                     .logo {max-width: 600px;
+                                    @media only screen and (min-width: 800px) {
+                                        					.whole{ max-width: 800px;
+                                                    margin: auto;
+                                                 }
+                                                 img {max-width: 500px;
+                                                 margin: auto;}
+                                                 .logo {max-width: 600px;
 
-                     }
-          
-            					.nebula {
-                        max-width: 1000px;
-                        margin: auto;
-                        column-count: 2;
-                      }
+                                                 }
+                                      
+                                        					.nebula {
+                                                    max-width: 1000px;
+                                                    margin: auto;
+                                                    column-count: 2;
+                                                  }
         aside{
 
             height: 400px;
@@ -129,6 +129,7 @@ small, .text_small {font-size: 0.75em;}
             width: 70%;
             float: right;   
             margin-bottom: 10px; 
+            text-align: justify;
 
         }
 
@@ -158,6 +159,17 @@ small, .text_small {font-size: 0.75em;}
                      }
 
 
-                                   article {column-count: 2;}}
+                                 }
 
-
+      footer{
+       height: 100px;
+       width: 100%;
+       background-size:cover; 
+       background-color: #050438;
+       color: white;
+       clear:both;
+       text-align: center;
+       font-size: 15px;
+       margin-top:0;
+      }
+      .text{text-align: center;}
